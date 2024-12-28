@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto India</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css"/>
+ 
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <img src="r.png" alt="Logo">
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#login"><span class="lo-gin">LOGIN</span></a>
+      <a href="#contact">Contact Us</a>
+      <a href="#tracker">Tracker</a>
+      <a href="#Search"><i class="fa-solid fa-magnifying-glass" style="color: #121212;"></i></a>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#login">Login</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#tracker">Tracker</a>
+      <a href="#Search"><i class="fa-solid fa-magnifying-glass" style="color: #121212;"></i></a>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <h1>NAMASTE!</h1>
+    <p>Let's connect with our soil,<br> again!</p>
+    <div class="btns">
+      <button class="btn">Explore With Us</button>
+    </div>
+    <div> 
+      <img src="r.png" alt="Main Logo" class="logo-main">
+    </div>
+    <div>
+      <h2>RETO</h2>
+      <h2 class="ind-ia">INDIA</h2>
+    </div>
+    <div class="btns-2">
+      <button class="btn-2">Reto INDIA is a new-gen marketplace connecting <br>with the old gems of our land</button>
+    </div>
+  </main>
+
+  <!-- Social Media Icons -->
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fas fa-arrow-down"></i></a>
+  </div>
+
+  <!-- JavaScript for Menu Toggle -->
+  <script>
+    function toggleMenu() {
+      const mobileMenu = document.querySelector('.mobile-menu');
+      mobileMenu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
